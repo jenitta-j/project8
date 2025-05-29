@@ -1,0 +1,29 @@
+/*8. Build a Movie Search Website 
+o Create a website that allows users to search for movies and display 
+details. 
+o Use HTML to structure the content, CSS to style the website, and 
+JavaScript to add interactive elements. 
+o Make at least five git commits, ensuring each commit reflects significant 
+progress 
+o Host the website on GitHub Pages. */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Movie Search</h1>
+    <div class="search-bar">
+      <input type="text" id="movieInput" placeholder="Enter movie name..." />
+      <button onclick="searchMovie()">Search</button>
+    </div>
+    <div id="movieDetails" class="movie-details"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
